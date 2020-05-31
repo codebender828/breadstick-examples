@@ -23,9 +23,10 @@
         </c-alert-description>
       </c-alert>
       <c-box>
-        <c-button variant-color="orange" left-icon="triangle-up" as="a" target="_blank" href="https://github.com/codebender828/breadstick-examples" size="sm">View Source on github</c-button>
+        <c-button variant-color="blue" variant="outline" left-icon="triangle-up" as="a" target="_blank" href="https://github.com/codebender828/breadstick-examples" size="sm">View Source on Github</c-button>
+        <c-button variant-color="blue" left-icon="triangle-up" as="a" ml="3" target="_blank" href="https://github.com/codebender828/breadstick" size="sm">View Breadstick</c-button>
       </c-box>
-      <c-text text-align="center" mt="2">Made with ❤️ by <c-link is-external href="https://twitter.com/@codebender828">Jonathan Bakebwa 🇺🇬</c-link></c-text>
+      <c-text text-align="center" mt="2">Made with ❤️ by <c-link is-external href="https://twitter.com/codebender828">Jonathan Bakebwa 🇺🇬</c-link></c-text>
     </c-box>
 
     <c-flex py="10" :px="[5, 5, 10]" :flex-dir="['column-reverse', 'column-reverse', 'row']" align="center">
