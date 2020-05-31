@@ -1,5 +1,5 @@
 <template>
-  <c-flex role="alert" v-bind="$props" w="350px" min-h="20" m="3" rounded="4px" overflow="hidden" shadow="sm">
+  <c-flex role="alert" v-bind="$props" :w="['300px', '300px', '350px']" min-h="20" m="3" rounded="4px" overflow="hidden" shadow="sm">
     <c-flex min-w="16" bg="blue.500" color="white" justify="center" align="center">
       <c-icon name="exclamation" />
     </c-flex>
