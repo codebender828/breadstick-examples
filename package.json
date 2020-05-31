@@ -1,0 +1,24 @@
+{
+  "name": "breadstack-examples",
+  "version": "1.0.0",
+  "description": "Using breadstick to create custom notifications",
+  "author": "codebender828",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@chakra-ui/nuxt": "^0.0.3",
+    "@chakra-ui/vue": "^0.5.9",
+    "@nuxtjs/emotion": "^0.0.1",
+    "animejs": "^3.2.0",
+    "breadstick": "^0.2.15",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/components": "^0.2.3"
+  }
+}
