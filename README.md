@@ -5,7 +5,7 @@
 [**⚡️View live demo**](https://breadstick-examples.now.sh)
 
 ## About this example application:
-This simple application shows how to use [Breadstick's](https://github.com/codebender828/breadstick) stacking API to render authored Vue toast notifications.
+This simple Nuxt application shows how to use [Breadstick's](https://github.com/codebender828/breadstick) stacking API to render authored Vue toast notifications.
 
 In this demo I replicated 3 Toast designs and rendered them inside Breadstick:
 - [Vercel](https://vercel.com)'s Toast
@@ -13,6 +13,11 @@ In this demo I replicated 3 Toast designs and rendered them inside Breadstick:
 - [Equal UI Component Library](https://quatrochan.github.io/Equal/components/notification) Notification.
 
 All the Toasts used in this example were reimplemented using [Chakra UI Vue](https://vue.chakra-ui.com) for it's simple/flexible styling API.
+
+The meat and potatoes of this example is in the [plugins/breadstick.client.js](https://github.com/codebender828/breadstick-examples/blob/master/plugins/breadstick.client.js) file. Feel free to copy this and use it in your own applications.
+
+#### For Vue.js
+If you're using raw Vue.js, you can view [this gist](https://gist.github.com/codebender828/72dbee93dc2d419c60a18c114adecca7) that provides a similar high-level implementation.
 
 ## What is Breadstick?
 [Breadstick](https://github.com/codebender828/breadstick) is a tiny Vue.js library that provides a simple **stacking, positioning, and dismissal** API for authored Vue.js toast notifications.
